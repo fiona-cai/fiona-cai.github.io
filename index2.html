@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Fiona Cai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="CToAgd8F3aoMhV6_torySzyWfyrxqdLyph39HUPOip8" />
+<link rel="icon" 
+  type="image/png" 
+  href="images/rosefavicon.png">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="fiona-stylesheet.css">
+<link rel="stylesheet" href="circles.css">
+<link href="/src/css/instagram-widget.css" rel="stylesheet">
+</head>
+
+<body class=theme>
+
+<nav class="navbar sticky">
+  <a href="https://fiona-cai.github.io/fcaiona/" class="active left"><img src="images/mylogo.PNG" height="80%"></a>
+  <a class="left" style= "font-size: 100px; cursor: pointer; filter: opacity(90%);" onclick="openNav()" ><img src="https://www.alvincollege.edu/images/white_hamburger_4.png" height="45"></a>
+</nav>
+
+<nav class= "font2 text-center" id="sidenav">
+  <a href="#about" onclick="closeNav()" style="padding-top: 12%;">About</a>
+  <a href="gallery.html" onclick="closeNav()">Art</a>
+  <a href="music.html" onclick="closeNav()">Music</a>
+  <a href="contact.html" onclick="closeNav()">Contact</a>
+  <a href="javascript:void(0)" id="closebtn" style='z-index: 4; padding: 0;' onclick="closeNav()">&times;</a>
+</nav>
+
+<div id="main">
+  <header class='header' style='padding-top: 25%; padding-bottom: 15%;'>  
+    <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+    </ul>
+    <h1 class="glow">Fiona Cai</h1>
+    <h2>Welcome to my world!</h2>
+  </header>
+
+  <div class='box' id="about">
+    <div style="height: 150px; overflow: hidden;" >
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--secondary);">
+        </path>
+      </svg>
+    </div>
+    <div class="row">
+      <div>
+        <h2>Hello! I'm Fiona,</h2>
+        <p class="text-center">btw this font is my handwriting :)</p>
+        <p class="desc indent">A 14 year old with a passion for literally everything: programming, art (digital and traditional), photography, music, you name it. I've always been pretty loud, maybe it’s because <span id="dots">...</span><span id="more">
+          I’m just an attention seeker like that, maybe it’s because I can’t hear myself, I really don’t know. I like to think of myself as an approachable person. According to the MBTI test, I'm an ENTP I also like to fiddle around with notes (I wouldn’t consider it composing) by myself in my spare time. They usually come out all weird sounding but hey, it’s the effort that counts. I’ve been playing piano two hours a day for more than two-thirds of my life. It’s probably the most unrewarding thig I’ve ever done because there’s barely any improvement from year to year. As for programming, I somehow taught myself the basics of HTML and CSS by just inspecting hundreds of websites. In fact, that’s why this whole website even exists. I also know enough Python to do what I want to do. I really have no idea how good or bad I am with it because I have never heard of a standard test to take with programming. A few months back, I finally convinced my parents to get me into a Java class so I’ll be busy with that for the next bit. On top of all that, I’m a self-proclaimed artist. Art is one of the only things I’ve been doing consistently all these years so I have to say, I’m quite good at it (Unlike piano lmao). Everything I do has some tie with the arts; I guess it makes up for how unathletic I am. Since I really have no idea what I want to do in the future, I’m just gonna let myself try everything I want to while I can. I’m all about my wants since I literally have everything I need. Let’s end this with my two favourite quotes: “No one cares” and “Ignorance is bliss”. Happy stalking!✨
+        </span></p>
+        <button onclick="moreorless()" class="font2 btn draw-border" id="myBtn">
+          <span>Read more</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <h2> Instagram</h2>
+        <!-- SnapWidget -->
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/963442" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+        <button onclick= "window.open('https://instagram.com/fcaiona','_blank')" class="font2 btn draw-border">
+          <span>Visit Instagram</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <h2> Github</h2>
+        <div class="github-widget" data-username="fiona-cai"></div>
+        <button onclick= "window.open('https://github.com/fiona-cai','_blank')" class="font2 btn draw-border">
+          <span>Visit Github</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <h2> Pinterest</h2>
+        <a data-pin-do="embedBoard" data-pin-board-width="1000" data-pin-scale-height="300" data-pin-scale-width="30%" href="https://www.pinterest.ca/fcaiona/fcaiona_art/"></a>
+        <button onclick= "window.open('https://github.com/fiona-cai','_blank')" class="font2 btn draw-border">
+          <span>Visit Github</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <h2>Spotify</h2>
+        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:occona&size=detail&theme=light" width="25%" height="60" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/7mhZcQA1MT3R1yMzSH1CG6" width="75%" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <button onclick= "window.open('https://open.spotify.com/user/occona','_blank')" class="font2 btn draw-border">
+          <span>Visit Spotify</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class='box' id="about">
+    <div style="height: 150px; overflow: hidden;" >
+      <svg viewBox="0 0 1440 490" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0,49L80,89.8C160,131,320,212,480,253.2C640,294,800,294,960,261.3C1120,229,1280,163,1440,155.2C1600,147,1760,196,1920,245C2080,294,2240,343,2400,367.5C2560,392,2720,392,2880,383.8C3040,376,3200,359,3360,367.5C3520,376,3680,408,3840,400.2C4000,392,4160,343,4320,269.5C4480,196,4640,98,4800,114.3C4960,131,5120,261,5280,261.3C5440,261,5600,131,5760,114.3C5920,98,6080,196,6240,196C6400,196,6560,98,6720,65.3C6880,33,7040,65,7200,106.2C7360,147,7520,196,7680,220.5C7840,245,8000,245,8160,236.8C8320,229,8480,212,8640,187.8C8800,163,8960,131,9120,122.5C9280,114,9440,131,9600,130.7C9760,131,9920,114,10080,130.7C10240,147,10400,196,10560,179.7C10720,163,10880,82,11040,114.3C11200,147,11360,294,11440,367.5L11520,441L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z" style="stroke: none; fill: var(--secondary);">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <header class="header2">
+    <h1 class="glow">Let's go</h1>
+    <h2>to my world</h2>
+    <button  onclick= "window.open('https://instagram.com/fcaiona','_blank')" class="continue font2 btn draw-border">
+      <span>Continue</span>
+    </button>
+  </header>
+
+  <footer>
+    <a href="mailto:fionacaicontact.com" class="invert"><img src="https://speakliveplay.com/wp-content/uploads/2019/06/email-icon-png-download-icons-logos-emojis-email-icons-2400.png"></a>
+    <a href="https://instagram.com/fcaiona" class="invert"><img src="https://image.flaticon.com/icons/png/512/87/87390.png"></a>
+  </footer>
+
+  <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+  <script src="widget.js"></script>
+  <script src="https://snapwidget.com/js/snapwidget.js"></script>
+  <script>
+  function openNav() {
+    document.getElementById("sidenav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+  }
+
+  function moreorless() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } 
+    else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Fiona Cai | Contact and Links</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="CToAgd8F3aoMhV6_torySzyWfyrxqdLyph39HUPOip8" />
+<link rel="icon" 
+  type="image/png" 
+  href="images/rosefavicon.png">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="fiona-stylesheet.css">
+<link href="/src/css/instagram-widget.css" rel="stylesheet">
+</head>
+
+<body class=theme>
+
+<nav class="navbar sticky">
+  <a href="https://fiona-cai.github.io/fcaiona/" class="active left"><img src="images/mylogo.PNG" height="80%"></a>
+  <a class="left" style= "font-size: 100px; cursor: pointer; filter: opacity(90%);" onclick="openNav()" ><img src="https://www.alvincollege.edu/images/white_hamburger_4.png" height="45"></a>
+</nav>
+
+<nav class= "font2 text-center" id="sidenav">
+  <a href="#about" onclick="closeNav()" style="padding-top: 12%;">About</a>
+  <a href="gallery.html" onclick="closeNav()">Art</a>
+  <a href="music.html" onclick="closeNav()">Music</a>
+  <a href="contact.html" onclick="closeNav()">Contact</a>
+  <a href="javascript:void(0)" id="closebtn" style='z-index: 4; padding: 0;' onclick="closeNav()">&times;</a>
+</nav>
+<div id="main">
+  <header class='header' style='padding-top: 15%; padding-bottom: 10%;'>  
+    <h1 class="glow">Contact and Links</h1>
+  </header>
+
+  <div class='box' id="about">
+    <div style="height: 150px; overflow: hidden;" >
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--secondary);">
+        </path>
+      </svg>
+    </div>
+    <div class="row" style="margin: 0%;">
+      <div>
+        <button onclick= "window.open('https://instagram.com/fcaiona','_blank')" class="font2 btn draw-border">
+          <span>Personal Instagram</span>
+        </button>
+        <button onclick= "window.open('https://instagram.com/fcaiona_art','_blank')" class="font2 btn draw-border">
+          <span>Art Instagram</span>
+        </button>
+        <button onclick= "window.open('https://instagram.com/fcaiona_art','_blank')" class="font2 btn draw-border">
+          <span>Invite Fiona Bot (Discord)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a href="mailto:fionacaicontact.com" class="invert"><img src="https://speakliveplay.com/wp-content/uploads/2019/06/email-icon-png-download-icons-logos-emojis-email-icons-2400.png"></a>
+    <a href="https://instagram.com/fcaiona" class="invert"><img src="https://image.flaticon.com/icons/png/512/87/87390.png"></a>
+  </footer>
+
+  <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+  <script src="widget.js"></script>
+  <script src="https://snapwidget.com/js/snapwidget.js"></script>
+  <script>
+  function openNav() {
+    document.getElementById("sidenav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+  }
+
+  function moreorless() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } 
+    else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  </script>
+
+</body>
+</html>
